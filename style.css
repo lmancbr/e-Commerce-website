@@ -131,6 +131,9 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
+
+/*---------- offer -----------*/
+
 .offer{
     background: radial-gradient(#fff,#ffd6d6);
     margin-top: 80px;
@@ -141,4 +144,24 @@ h4{
 }
 small{
     color: #555;
+}
+
+/*---------- testimonial -----------*/
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
 }
